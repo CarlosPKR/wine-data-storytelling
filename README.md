@@ -1,6 +1,13 @@
-## Wine dataset: cleaning, transformation, and preparation for BI
+## Wine dataset: cleaning, transformation, and analysis for BI
 
-Data processing pipeline to clean, transform, and structure a wine reviews dataset for analysis and dashboard visualization.
+Data processing pipeline to clean, transform, and structure a wine reviews dataset for analysis and dashboard visualization.  
+Includes structured outputs and an interactive data story built with Flourish.
+
+### Visualization
+
+An interactive data story was created using Flourish:
+
+https://public.flourish.studio/story/3550359/
 
 ### Data source and attribution
 
@@ -20,15 +27,35 @@ The repository contains the following structure:
 
 - /notebooks: contains the main analysis notebook.
 - /data: contains the dataset downloaded automatically.
-- /outputs: contains the CSV files generated for visualization.
+- /outputs: contains the CSV files generated for visualization and analysis.
 - requirements.txt: for installing dependencies.
 
-The script generates structured datasets in the outputs folder with the following information:
+### Generated datasets
 
-- graph_1.csv: Number of wines by country and quality category.
-- graph_2.csv: Average price by country and quality category.
-- graph_4.csv: Top wines grouped by price range.
-- graph_5.csv: Number of unique wine varieties per country.
+The pipeline generates the following datasets in the outputs folder:
+
+- wine_cleaned.csv: cleaned and processed dataset ready for analysis.
+- graph_1.csv: number of wines by country and quality category.
+- graph_2.csv: average price by country and quality category.
+- graph_3.csv: top wines grouped by price range.
+- graph_4.csv: number of unique wine varieties per country.
+
+### Output dataset structure
+
+The cleaned dataset includes the following fields:
+
+- country: country of origin of the wine.
+- description: textual review of the wine.
+- designation: vineyard or specific label within the winery.
+- points: wine rating on a scale from 80 to 100.
+- price: price of the wine.
+- province: region or state of origin.
+- region_1: more specific wine-growing area.
+- title: full wine title including vintage information.
+- variety: type of grape used.
+- year: extracted vintage year from the title.
+- category: quality classification based on score.
+- price_range: categorized price segment.
 
 ### Data processing
 
