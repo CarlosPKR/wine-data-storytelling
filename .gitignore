@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+.env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (do not upload large datasets)
+data/*
+!data/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db

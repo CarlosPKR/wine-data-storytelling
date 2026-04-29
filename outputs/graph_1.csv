@@ -1,0 +1,54 @@
+Country,Quality,Count
+Argentina,1/6 Acceptable,71
+Argentina,2/6 Good,358
+Argentina,3/6 Very Good,319
+Argentina,4/6 Excellent,233
+Argentina,5/6 Superior,19
+Australia,1/6 Acceptable,10
+Australia,2/6 Good,179
+Australia,3/6 Very Good,310
+Australia,4/6 Excellent,451
+Australia,5/6 Superior,48
+Australia,6/6 Outstanding,2
+Austria,2/6 Good,50
+Austria,3/6 Very Good,279
+Austria,4/6 Excellent,558
+Austria,5/6 Superior,113
+Chile,1/6 Acceptable,52
+Chile,2/6 Good,415
+Chile,3/6 Very Good,371
+Chile,4/6 Excellent,160
+Chile,5/6 Superior,2
+France,1/6 Acceptable,6
+France,2/6 Good,182
+France,3/6 Very Good,362
+France,4/6 Excellent,389
+France,5/6 Superior,61
+Germany,1/6 Acceptable,1
+Germany,2/6 Good,78
+Germany,3/6 Very Good,343
+Germany,4/6 Excellent,497
+Germany,5/6 Superior,81
+Italy,1/6 Acceptable,3
+Italy,2/6 Good,162
+Italy,3/6 Very Good,455
+Italy,4/6 Excellent,320
+Italy,5/6 Superior,57
+Italy,6/6 Outstanding,3
+Portugal,1/6 Acceptable,7
+Portugal,2/6 Good,301
+Portugal,3/6 Very Good,331
+Portugal,4/6 Excellent,331
+Portugal,5/6 Superior,29
+Portugal,6/6 Outstanding,1
+Spain,1/6 Acceptable,57
+Spain,2/6 Good,336
+Spain,3/6 Very Good,351
+Spain,4/6 Excellent,227
+Spain,5/6 Superior,28
+Spain,6/6 Outstanding,1
+United States,1/6 Acceptable,22
+United States,2/6 Good,161
+United States,3/6 Very Good,310
+United States,4/6 Excellent,437
+United States,5/6 Superior,70
