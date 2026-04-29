@@ -1,4 +1,4 @@
-## Wine dataset: cleaning, transformation, and analysis for BI
+## Wine dataset: data preparation, analysis, and visualization
 
 Data processing pipeline to clean, transform, and structure a wine reviews dataset for analysis and dashboard visualization.  
 Includes structured outputs and an interactive data story built with Flourish.
